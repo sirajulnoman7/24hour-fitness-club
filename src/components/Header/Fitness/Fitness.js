@@ -11,10 +11,12 @@ const Fitness = () => {
 
     return (
         <div className='main-fitness-container pt-8'>
+
             <div className='fitness-container'>
                 {
-                    fitness.map(fitDada => <FitnessInfo fitnessData={fitDada}></FitnessInfo>)
+                    fitness.map(fitData => <FitnessInfo fitnessData={fitData} key={fitData.id}></FitnessInfo>)
                 }
+
             </div>
             <div>
                 <h3>Fitness exesorice :{fitness.length}</h3>
