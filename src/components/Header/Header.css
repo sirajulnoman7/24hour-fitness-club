@@ -1,0 +1,21 @@
+.manus a:hover {
+    color: chocolate;
+    text-decoration: navy;
+}
+
+.manus a {
+    color: #ffff;
+    padding-left: 20px;
+
+}
+
+.manus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join:hover {
+    color: white;
+    background-color: rgb(110, 0, 212);
+}
