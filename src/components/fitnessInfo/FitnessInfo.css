@@ -12,4 +12,18 @@
 
 }
 
-.btn {}
+@media screen and (max-width:667px) {
+    .img {
+        height: 120px;
+        width: 140px;
+        margin-left: 3px;
+        margin-top: 6px;
+        border-radius: 7px;
+
+    }
+
+    .containers {
+        height: 520px;
+
+    }
+}

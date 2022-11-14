@@ -4,9 +4,32 @@
 }
 
 .fitness-container {
-    padding-top: 40px;
+    margin-top: 140px;
     padding-left: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
+}
+
+@media screen and (max-width:900px) {
+    .fitness-container {
+        margin-top: 80px;
+        padding-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:667px) {
+
+    .fitness-container {
+        margin-top: 50px;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+
 }
